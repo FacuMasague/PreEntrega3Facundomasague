@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    border-style: none;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listaProductos{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.listaProductos li{
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info h3{
+    margin: 5px;
+}
+.info p{
+    margin-left: 10px;
+}
+
+.compra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.compra input{
+    height: 25%;
+    width: 60%;
+}
+.compra button{
+    padding: 10px;
+    border-radius: 2rem;
+    background-color: greenyellow;
+}
+.compra button:hover{
+    background-color: green;
+    transition: 0.3s;
+}
+
+#total{
+    font-weight: bold;
+}
